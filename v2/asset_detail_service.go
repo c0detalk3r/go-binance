@@ -112,6 +112,8 @@ type Network struct {
 	WithdrawMin             string `json:"withdrawMin"`
 	SameAddress             bool   `json:"sameAddress"` // 是否需要memo
 	EstimatedArrivalTimedd  int    `json:"estimatedArrivalTime"`
+	ContractAddress         string `json:"contractAddress"`
+	ContractAddressURL      string `json:"contractAddressUrl"`
 }
 
 // GetUserAssetService Get user assets
